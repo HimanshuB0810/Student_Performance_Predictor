@@ -1,0 +1,1 @@
+# any general function that is used in the entire programe is written here
