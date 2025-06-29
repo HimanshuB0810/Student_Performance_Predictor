@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys): #tb=trace_back
     _,_,exc_tb=error_detail.exc_info() #starting 2 info is not needed,3th variable gives details of on which file error has occured, which line execption occured.
