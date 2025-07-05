@@ -1,12 +1,10 @@
 ## End to End Machine Learning Project
 
-# 📊 Student Performance Predictor - ML Project
+#  Student Performance Predictor - ML Project
 
 An end-to-end Machine Learning application that predicts students' math scores based on demographic and academic features. Includes data processing, model training with hyperparameter tuning, and a Flask web interface.
 
-
-
-## 🚀 Key Features
+##  Key Features
 
 - **Automated ML Pipeline**: Modular structure for easy maintenance
 - **Data Processing**: Handles missing values, scaling, and categorical encoding
@@ -14,7 +12,7 @@ An end-to-end Machine Learning application that predicts students' math scores b
 - **Performance Metrics**: Selects best model based on R² score
 - **Production-Ready**: Model persistence and web interface via Flask
 
-## 📂 Project Structure
+##  Project Structure
 project-root/
 ├── artifacts/ # Serialized models and processed data
 │ ├── model.pkl # Trained model
@@ -42,7 +40,7 @@ project-root/
 └── README.md # Project documentation
 
 
-## � Model Inputs & Output
+##  Model Inputs & Output
 
 **Input Features:**
 - Demographic:
@@ -59,7 +57,7 @@ project-root/
 **Output:**
 - Predicted `math_score` (0-100)
 
-## ⚙️ Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 - Python 3.7+
@@ -87,7 +85,7 @@ python application.py
 
 Access the web interface at http://localhost:5000
 
-🛠️ Technical Stack
+ Technical Stack
 ML Frameworks: scikit-learn, XGBoost, CatBoost
 
 Web Framework: Flask
@@ -96,7 +94,7 @@ Data Processing: pandas, NumPy
 
 Visualization: (Add if you have any)
 
-🔮 Future Improvements
+ Future Improvements
 Add comprehensive input validation
 
 Dockerize application for easy deployment
