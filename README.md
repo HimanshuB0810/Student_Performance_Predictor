@@ -4,7 +4,7 @@
 
 An end-to-end Machine Learning application that predicts students' math scores based on demographic and academic features. Includes data processing, model training with hyperparameter tuning, and a Flask web interface.
 
-![Demo](https://via.placeholder.com/600x400?text=Project+Demo) *(Consider adding a screenshot or GIF of your web interface)*
+
 
 ## 🚀 Key Features
 
